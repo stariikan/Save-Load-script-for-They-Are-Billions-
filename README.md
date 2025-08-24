@@ -1,4 +1,4 @@
-This script allows you to quickly backup and restore your “They Are Billions” game folder using simple hotkeys on Windows. It works in the background, shows notifications, and keeps a log of actions.
+This script allows you to quickly backup and restore (Save/Load) your “They Are Billions” game folder (user's saves) using simple hotkeys on Windows. It works in the background, shows notifications, and keeps a log of actions.
 
 Main Features:
 - Flexible paths for any user
