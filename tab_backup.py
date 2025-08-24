@@ -59,7 +59,7 @@ def restore():
 keyboard.add_hotkey("F5", backup)
 keyboard.add_hotkey("F9", restore)
 
-notify("Backup program started. (F5=backup, F9=restore, ESC=exit)")
+notify("Backup program started. (F5=backup, F9=restore, F11=exit)")
 
 # Wait for F11 to exit
 keyboard.wait("F11")
