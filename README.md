@@ -39,6 +39,7 @@ Optional: run as .pyw or with pythonw.exe for fully hidden background operation.
 
 How It Works (Step by Step)
 - Copy script and bat file here: C:\Users\CurrentUser
+- In start_backup.bat change "CurrentUser" to your user name.
 - Run start_backup.bat.
 
 Waits for hotkeys:
