@@ -4,6 +4,7 @@ This script allows you to quickly backup and restore your “They Are Billions�
 Main Features
 Flexible paths for any user
 Automatically detects the current Windows user.
+
 Uses the standard Documents folder:
 C:\Users\<CurrentUser>\Documents\My Games\They Are Billions
 
@@ -22,6 +23,7 @@ F11 → Exits the script.
 Background Operation
 Runs silently using pythonw.exe or as a .pyw file.
 No console window pops up.
+
 Notifications
 Uses Windows toast notifications to show success or error messages.
 Logs all actions with timestamps in a text file on Desktop.
