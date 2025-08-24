@@ -38,6 +38,8 @@ Requirements:
 Optional: run as .pyw or with pythonw.exe for fully hidden background operation.
 
 How It Works (Step by Step)
+- Install Python (if missing)
+- Install the required libraries. Once Python works in CMD, install dependencies: pip install keyboard win10toast
 - Copy script and bat file here: C:\Users\CurrentUser
 - In start_backup.bat change "CurrentUser" to your user name.
 - Run start_backup.bat.
