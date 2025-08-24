@@ -6,10 +6,10 @@ Flexible paths for any user
 Automatically detects the current Windows user.
 
 Uses the standard Documents folder:
-C:\Users\<CurrentUser>\Documents\My Games\They Are Billions
+C:\Users\ <CurrentUser> \Documents\My Games\They Are Billions
 
 Backups are stored in:
-C:\Users\<CurrentUser>\Backups_TAB
+C:\Users\ <CurrentUser> \Backups_TAB
 
 Log file on Desktop:
 C:\Users\<CurrentUser>\Desktop\tab_backup_log.txt
