@@ -51,7 +51,7 @@ def restore():
 
         # Restore from latest
         shutil.copytree(latest, source)
-        notify(f"Restored from: {latest}")
+        notify(f"Folder replaced with latest backup: {latest}")  # ✅ Notification added
     except Exception as e:
         notify(f"Restore failed: {e}", "ERROR")
 
@@ -59,7 +59,8 @@ def restore():
 keyboard.add_hotkey("F5", backup)
 keyboard.add_hotkey("F9", restore)
 
-notify("Backup program started. (F5=backup, F9=restore, F11=exit)")
+notify("Backup program started. (F5=backup, F9=restore, ESC=exit)")
 
+# Wait for F11 to exit
 keyboard.wait("F11")
-notify("Program exited.")
+notify("Backup program exited.")  # ✅ Notification when exiting
