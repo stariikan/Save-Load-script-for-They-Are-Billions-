@@ -1,0 +1,1 @@
+start "" pythonw.exe "C:\Users\<CurrentUser>\tab_backup.py"
