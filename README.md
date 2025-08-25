@@ -38,11 +38,15 @@ Requirements:
 Optional: run as .pyw or with pythonw.exe for fully hidden background operation.
 
 How It Works (Step by Step)
-- Install Python (if missing)
-- Install the required libraries. Once Python works in CMD, install dependencies: pip install keyboard win10toast
-- Copy script and bat file here: C:\Users\CurrentUser
-- In start_backup.bat change "CurrentUser" to your user name.
+- Install Python (if not already installed).
+- Install the required libraries.
+- Once Python works in CMD run: - pip install keyboard win10toast
+- Copy the script and the .bat file to: C:\Users\CurrentUser\
+- In start_backup.bat, replace "CurrentUser" with your actual Windows username.
 - Run start_backup.bat.
+- When the game saves and you want to back it up, press F5.
+- To restore the most recent backup, press F9 in the main menu.
+- Then load the profile you were playing.
 
 Waits for hotkeys:
 - Press F5 → copies the game folder to the backup folder with a timestamp.
