@@ -33,7 +33,7 @@ Backup Management:
 - Restore always uses the most recent backup automatically.
 
 Requirements:
-- Python installed (or convert to .exe for standalone use).
+- Python
 - Python libraries: keyboard, win10toast.
 Optional: run as .pyw or with pythonw.exe for fully hidden background operation.
 
